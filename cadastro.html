@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="background">
+        <section id="container">
+            <article id=imgfrase>
+                    <section id=textoesquerda>
+                        <h2>Join our community</h2>
+                        <p>Let's get connected</p>
+                    </section>
+            </article>
+
+            <article id="loginfora">
+                <div id="logindentro">
+                    <h2><u>Re</u>gister</h2>
+                    <br><br><br>
+                    <form action="POST" onsubmit="" id="login" name="login">
+                        <div class="forminput">
+                            <i id="nomeicon" class="fas fa-user"></i>
+                            <input type="text" name="nome" id="nome" required placeholder="Enter your name">
+                        </div>
+                        <br>
+                        <div class="forminput">
+                            <i id="envelope" class="fas fa-envelope"></i>
+                            <input type="email" name="email" id="email" required placeholder="Enter your email">
+                        </div>  
+                        <br>
+                        <div class="forminput">
+                            <i id="cadeado"class="fas fa-lock"></i>
+                            <input type="password" name="senha" id="senha" required placeholder="Enter your password">
+                            <i class="olho fas fa-eye"></i>
+                        </div>
+                    </form>
+                    <br><br><br>
+                    <button type="submit" id="submit" name="submit" form="login" onclick="validar()" class="btn btn-primary">Submit</button>
+                    <br><br>
+                    <p>Already have an account? <a style="color: #7d2ae8;" href="index.html">Sign in</a></p>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">    
+    <script src="https://kit.fontawesome.com/3ba2fa3e4e.js" crossorigin="anonymous"></script>
+    <script src="js/cadastro.js"></script>
+</body>
+</html>

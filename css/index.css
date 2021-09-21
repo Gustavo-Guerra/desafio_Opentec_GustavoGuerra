@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#background{
+    background-color: #7d2ae8;
+    height: 657px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    height: 80%;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 'Poppins', Sans-serif;
+}
+
+#loginfora{
+    background-color: #ffffff;
+    width: 700px;
+    height: 100%;
+    padding: 30px;
+}
+
+#logindentro{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}       
+
+#imgfrase{
+    background: #7d2ae8 url('../img/notebook.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    height: 100%;
+    width: 700px;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#envelope{
+    color: #7d2ae8;
+    padding-right: 10px;
+}
+
+#cadeado{
+    color: #7d2ae8;
+    padding-right: 12px;
+}
+
+#submit{
+    width: 100%;
+    background-color: #7d2ae8;    
+    border-color: #7d2ae8;
+}
+#img{
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+}
+
+p{
+    text-align: center;
+}
+
+h2 > u{
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
+    text-decoration-color: #7d2ae8;
+}
+
+#submit:hover{
+    box-shadow: none;
+    background-color: #5b13b9;
+}
+
+#submit:focus{
+    box-shadow: none;
+}
+
+#submit:focus,
+#submit:focus-visible,
+#submit:active{
+    background-color: #5b13b9;
+    box-shadow: none;
+}
+
+
+.forminput{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.forminput input{
+    border: unset;
+    border-bottom: 1px solid #cccccc;
+    flex: 1;
+}
+
+.forminput input:active,
+.forminput input:focus-visible{
+    border-bottom: 1px solid #7d2ae8;
+}
+
+.forminput input:focus-visible,
+.forminput input:focus,
+.forminput input:hover,
+.forminput input:active{
+    outline: unset;
+}
+
+.fa-eye,
+.fa-eye-slash{
+    position: absolute;
+    right: 715px;
+    top: 290px;
+    color: #7d2ae8;
+}
+
+@media screen and (max-width: 768px){
+    #imgfrase{
+        display: none;
+    }
+
+    #loginfora{
+        display: inline-block;
+    }
+}
